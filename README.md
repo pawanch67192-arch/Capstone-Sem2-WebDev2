@@ -57,14 +57,16 @@ Personalized progress tracking
 Frontend
 ⚛️ React (Hooks + Functional Components)
 🔀 React Router
-🎨 Tailwind CSS / Material UI
+🎨 Tailwind CSS
 
-Backend (Choose One)
+Backend 
+
 🌐 Node.js + Express
-🔥 Firebase (alternative backend)
+ 
 
 Database
-🍃 MongoDB (for Node.js backend)
+
+not used
 
 
 # 🌟 Advanced Features: #
