@@ -52,23 +52,6 @@ User Signup/Login system
 Secure data storage
 Personalized progress tracking
 
-# 🖥️ Tech Stack #
-
-Frontend
-⚛️ React (Hooks + Functional Components)
-🔀 React Router
-🎨 Tailwind CSS
-
-Backend 
-
-🌐 Node.js + Express
- 
-
-Database
-
-not used
-
-
 # 🌟 Advanced Features: #
 
 🌙 Dark Mode
