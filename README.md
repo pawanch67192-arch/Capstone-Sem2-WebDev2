@@ -6,7 +6,7 @@ A full-stack Gamified Task Manager built with React that transforms daily produc
 
 This application combines productivity and gamification to motivate users to complete daily tasks. Instead of a traditional to-do list, users are rewarded with points, levels, badges, and streaks—making task management fun and addictive.
 
-# ✨ Features#
+# ✨ Features #
 
 ✅ Task Management
 Add, edit, and delete tasks
@@ -52,7 +52,7 @@ User Signup/Login system
 Secure data storage
 Personalized progress tracking
 
-# 🖥️ Tech Stack#
+# 🖥️ Tech Stack #
 
 Frontend
 ⚛️ React (Hooks + Functional Components)
@@ -67,7 +67,7 @@ Database
 🍃 MongoDB (for Node.js backend)
 
 
-# 🌟 Advanced Features:#
+# 🌟 Advanced Features: #
 
 🌙 Dark Mode
 🎮 Drag-and-drop task reordering
@@ -75,7 +75,7 @@ Database
 🏆 Leaderboard system
 📱 Offline support using local storage sync
 
-# 📸 Screenshots#
+# 📸 Screenshots #
 
 
 <img width="1758" height="847" alt="image" src="https://github.com/user-attachments/assets/3865a548-047b-42d2-bafa-e64aa00bb734" />
@@ -85,18 +85,18 @@ Database
 
 
 
-# 🎯 Future Improvements#
+# 🎯 Future Improvements #
 
 AI-based task suggestions
 Calendar integration
 Mobile app version
 Social sharing of achievements
 
-# 🤝 Contributing#
+# 🤝 Contributing #
 
 Contributions are welcome! Feel free to fork this repo and submit a pull request.
 
 
-# 👨‍💻 Author#
+# 👨‍💻 Author #
 
 Pawan Chauhan
