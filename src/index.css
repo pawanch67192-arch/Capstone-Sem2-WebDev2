@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+  body {
+    @apply bg-gray-950 text-gray-100 font-body;
+    background-image: 
+      radial-gradient(ellipse at 20% 20%, rgba(16,185,129,0.06) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 80%, rgba(139,92,246,0.06) 0%, transparent 50%);
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-gray-900 border border-gray-800 rounded-xl p-5;
+  }
+  .card-glow {
+    @apply card transition-all duration-300 hover:border-quest-500/40 hover:shadow-lg hover:shadow-quest-500/10;
+  }
+  .btn-primary {
+    @apply bg-quest-500 hover:bg-quest-600 text-white font-display font-semibold px-5 py-2.5 rounded-lg transition-all duration-200 active:scale-95 text-sm tracking-wide;
+  }
+  .btn-secondary {
+    @apply bg-gray-800 hover:bg-gray-700 text-gray-200 font-display font-semibold px-5 py-2.5 rounded-lg transition-all duration-200 active:scale-95 text-sm;
+  }
+  .btn-danger {
+    @apply bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/30 font-semibold px-4 py-2 rounded-lg transition-all text-sm;
+  }
+  .input {
+    @apply bg-gray-800 border border-gray-700 rounded-lg px-4 py-2.5 text-gray-100 text-sm w-full
+           focus:outline-none focus:border-quest-500 focus:ring-1 focus:ring-quest-500/50 transition-all
+           placeholder:text-gray-500;
+  }
+  .xp-badge {
+    @apply inline-flex items-center gap-1 bg-xp-500/20 text-xp-400 text-xs font-bold px-2 py-0.5 rounded-full border border-xp-500/30;
+  }
+  .priority-easy   { @apply bg-emerald-500/15 text-emerald-400 border-emerald-500/30; }
+  .priority-medium { @apply bg-amber-500/15 text-amber-400 border-amber-500/30; }
+  .priority-hard   { @apply bg-red-500/15 text-red-400 border-red-500/30; }
+  
+  .shimmer-bar {
+    background: linear-gradient(90deg, #10b981 0%, #34d399 40%, #10b981 60%, #059669 100%);
+    background-size: 200% 100%;
+    @apply animate-shimmer;
+  }
+  .xp-float-text {
+    @apply fixed pointer-events-none font-display font-bold text-xp-400 text-xl z-50 animate-xp-float;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #111827; }
+::-webkit-scrollbar-thumb { background: #374151; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #10b981; }
+
+/* Task drag ghost */
+.task-dragging {
+  opacity: 0.5;
+  transform: rotate(2deg) scale(0.98);
+}
